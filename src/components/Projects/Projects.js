@@ -10,7 +10,7 @@ const Projects = () => (
     <GridContainer>
      
         <BlogCard >
-          <Img src='/images/5.png' />
+          <Img src='/images/stoicapp.png' />
           <TitleContent>
             <HeaderThree >Stoicbible Mobile App</HeaderThree>
             <hr />

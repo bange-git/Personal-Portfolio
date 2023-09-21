@@ -5,7 +5,7 @@ const Terms = () => {
   return (
     <Section>
         <SectionTitle>Terms of Use ("Terms")</SectionTitle>
-        <SectionTitle2>EFFECTIVE FROM: SEPTEMBER 20, 2023</SectionTitle2>
+        <SectionTitle2>EFFECTIVE FROM: SEPTEMBER 10, 2023</SectionTitle2>
         <SectionTitle2>PLEASE READ THESE TERMS AND CONDITIONS CAREFULLY BEFORE USING OUR SERVICE.</SectionTitle2>
         <SectionText>
 
