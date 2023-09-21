@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -46,7 +46,22 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+      🚀 I'm a Mobile App Developer with 3+ years of expertise in crafting exceptional apps for both iOS and Android platforms. My passion lies in building scalable, visually stunning, and intuitive applications that leave a lasting impression on users.
+      </SectionText>
+      <SectionText>
+        🛠️ With a keen eye for design and a knack for turning ideas into reality, I excel in creating seamless user experiences. From robust backend development to elegant UI/UX design, I'm dedicated to making every app I build a masterpiece.
+        </SectionText>
+
+        <SectionText>
+        🌟 My strength is in exceeding client expectations. I specialize in various app genres, ensuring that each project not only meets but surpasses the desired goals. I thrive on collaboration, turning visions into engaging, real-world applications.
+        </SectionText>
+
+        <SectionText>
+        📱 Whether it's social networking, e-commerce, or tailored industry solutions, I'm up for the challenge. I stay at the cutting edge of technology, constantly evolving to deliver the latest and the best in the mobile app arena.
+        </SectionText>
+        <SectionText>
+        🤝 Let's team up and bring your app ideas to life! I'm here to create mobile experiences that set new standards, ensuring your app stands out in the digital landscape.
+
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -112,7 +127,7 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
-      <SectionDivider />
+      
     </Section>
   );
 };

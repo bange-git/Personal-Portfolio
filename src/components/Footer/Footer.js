@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
@@ -15,20 +16,34 @@ const Footer = () => {
 
          <LinkColumn>
            <LinkTitle>Email</LinkTitle>
-           <LinkItem href='mailto:sebastienbange@gmail.com'>sebastienbange@gmail.com</LinkItem>
+           <LinkItem href='contact@bange-sabastine.com'>contact@bange-sabastine.com</LinkItem>
          </LinkColumn>
+        
+         <LinkColumn>
+         <LinkTitle>Our Policies</LinkTitle>
+          <Link href='/terms-and-conditions'>
+          <a style={{ display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px'}}>
+           Terms & Conditions
+          </a>
+        </Link>
+        <Link href='/privacy-policy'>
+          <a style={{ display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px'}}>
+           Privacy Policy
+          </a>
+        </Link>
+        </LinkColumn>
 
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Always willing and ready to learn one new concert at a time</Slogan>
+          <Slogan>Always willing and ready to learn one new concept at a time</Slogan>
         <SocialIcons href='https://github.com'>
          <AiFillGithub size='3rem' />
        </SocialIcons>
        <SocialIcons href='https://linkedin.com'>
          <AiFillLinkedin size='3rem' />
        </SocialIcons>
-       <SocialIcons href='mailto:sebastienbange@gmail.com'>
+       <SocialIcons href='contact@bange-sabastine.com'>
          <AiOutlineMail size='3rem' />
        </SocialIcons>
 

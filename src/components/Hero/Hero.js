@@ -11,9 +11,9 @@ const Hero = (props) => (
          Hi, My name is Sabastine <br/>
        </SectionTitle>
        <SectionText>
-      A software developer with a passion for learning and creating
+      A software developer with a passion for learning and creating. I build awesome fullstack web and mobile apps.
        </SectionText>
-       <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+       <Button onClick={() => window.location = '#projects'}>Learn More</Button>
      </LeftSection>
     
   </Section>
